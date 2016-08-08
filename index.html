@@ -14,22 +14,37 @@
     <body>
         <div class="container-fluid">
             <h1 class="text-center" id="heading1">The Page for Change</h1>
-
+            <br><br>
             <form>
                 <div class="form-group">
-                    <label for="titleContent">Type within the box below to change me.</label>
+                    <label for="titleContent">Type within the box below to the headline.</label>
                     <input type="text" class="form-control" id="titleContent" placeholder="Enter text here.">
                 </div>
 
                 <div class="form-group">
                     <label for="hexInputBox">Type in up to 6 numbers and letters to see a color below (think hex codes).</label>
-                    <!-- <input type="text" class="form-control" id="hexInputBox" placeholder="Enter numbers and letters."> -->
                     <textarea class="form-control" rows="1" cols="1" placeholder="Enter text here." id="box2"></textarea>
                 </div>
 
                 <div class="form-group">
                     <label for="regInputBox">A simple REGEX implementation sample.</label>
                     <input type="text" class="form-control" id="regInputBox" placeholder="Enter a sentence that includes the word 'blue'.">
+                </div>
+
+                <div class="radio">
+                    <h5>
+                        Select your background color choice with the radio buttons below:
+                    </h5>
+                    <label>
+                        <input type="radio" name="colorOptions" id="colorRed" class="radioOptions" value="1">
+                        Red
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="colorOptions" id="colorGreen" class="radioOptions" value="2">
+                        Green
+                    </label>
                 </div>
             </form>
 

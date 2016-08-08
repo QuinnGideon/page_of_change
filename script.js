@@ -49,4 +49,13 @@ $(document).ready(function(){
             }
         })
     }
+
+    $("#colorRed").click(function(){
+        docDefaultStyle.backgroundColor = "#DD1B1B";
+    });
+
+    $("#colorGreen").click(function(){
+        docDefaultStyle.backgroundColor = "#68B25B";
+    });
+
 });
