@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+
+        <title>Color Changer</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1 class="text-center" id="heading1">The Page for Change</h1>
+
+            <form>
+                <div class="form-group">
+                    <label for="titleContent">Type within the box below to change me.</label>
+                    <input type="text" class="form-control" id="titleContent" placeholder="Enter text here.">
+                </div>
+
+                <div class="form-group">
+                    <label for="hexInputBox">Type in up to 6 numbers and letters to see a color below (think hex codes).</label>
+                    <!-- <input type="text" class="form-control" id="hexInputBox" placeholder="Enter numbers and letters."> -->
+                    <textarea class="form-control" rows="1" cols="1" placeholder="Enter text here." id="box2"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="regInputBox">A simple REGEX implementation sample.</label>
+                    <input type="text" class="form-control" id="regInputBox" placeholder="Enter a sentence that includes the word 'blue'.">
+                </div>
+            </form>
+
+        </div>
+    </body>
+</html>
