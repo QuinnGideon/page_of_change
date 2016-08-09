@@ -26,7 +26,7 @@ $(document).ready(function(){
     function changeContent() {
         $("#titleContent").on("input", function() {
             if ($(this).val().length > 0) {
-                changeH1($(this).val());
+                changeH1($(this).val().toUpperCase());
             } else {
                 changedHeading.innerHTML = defaultHeading;
             }
@@ -43,7 +43,7 @@ $(document).ready(function(){
     // This function listens for the input, and if it matches the REGEX definition, changes color accordingly
     function regexExample() {
         $("#regInputBox").on("input", function() {
-            if (myRE.test($(this).val())) {
+            if (myRE.test($(this).val().toLowerCase())) {
               docDefaultStyle.backgroundColor = "RGBA(0, 160, 217, 1.00)";
             } else {
               docDefaultStyle.backgroundColor = "white";
