@@ -60,4 +60,9 @@ $(document).ready(function(){
         docDefaultStyle.backgroundColor = "#68B25B";
     });
 
+    // This function changes the heading font
+    $("#fontOption").click(function(){
+        $("#heading1").css("font-family", "monospace");
+    });
+
 });

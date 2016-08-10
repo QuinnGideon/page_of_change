@@ -5,35 +5,36 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- <link rel="stylesheet" src="animate.css"> -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="script.js"></script>
-
         <title>Color Changer</title>
     </head>
     <body>
         <div class="container-fluid">
-            <h1 class="text-center" id="heading1">DOM MANIPULATION</h1>
+            <h1 class="text-center" id="heading1">TEMPLATER</h1>
             <br><br>
             <form>
                 <div class="form-group">
-                    <label for="titleContent">Type within the box below to change the headline.</label>
+                    <label for="titleContent">Type below to change the headline.</label>
                     <input type="text" class="form-control" id="titleContent" placeholder="Enter text here.">
                 </div>
 
                 <div class="form-group">
-                    <label for="hexInputBox">Type in up to 6 numbers and letters to see a color below (think hex codes).</label>
+                    <label for="hexInputBox">Type in any hex code to change color.</label>
                     <textarea class="form-control" rows="1" cols="1" placeholder="Enter text here." id="box2"></textarea>
                 </div>
 
                 <div class="form-group">
-                    <label for="regInputBox">A simple REGEX implementation sample.</label>
+                    <label for="regInputBox">A simple REGEX implementation.</label>
                     <input type="text" class="form-control" id="regInputBox" placeholder="Enter a sentence that includes the word 'blue'.">
                 </div>
 
                 <div class="radio">
                     <h5>
-                        Select your background color choice with the radio buttons below:
+                        Select a background color below, or change the font.
                     </h5>
                     <label>
                         <input type="radio" name="colorOptions" id="colorRed" class="radioOptions" value="1">
@@ -44,6 +45,12 @@
                     <label>
                         <input type="radio" name="colorOptions" id="colorGreen" class="radioOptions" value="2">
                         Green
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="fontOptions" id="fontOption" class="radioOptions" value="3">
+                        Monospace
                     </label>
                 </div>
             </form>

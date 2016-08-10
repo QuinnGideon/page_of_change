@@ -11,4 +11,5 @@ Features:
 - Dynamically changes the color of the page by typing in a HEX code.
 - Dynamically changes the page color to blue if the word blue is typed; white if it is removed.
 - Changes page color based on radio button selection.
+- Changes font family.
 - Light usage of Bootstrap.
